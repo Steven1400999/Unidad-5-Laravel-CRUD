@@ -75,7 +75,7 @@ class AlumnoController extends Controller
             'nombre_alumno' => 'required|string|max:255',
             'apellido_paterno' => 'required|string|max:255',
             'apellido_materno' => 'required|string|max:255',
-            'edad' => 'required|integer|min:18|max:99'
+            'edad' => 'numeric|required'
         ]);
 
         $alumno = Alumno::find($id_alumno);

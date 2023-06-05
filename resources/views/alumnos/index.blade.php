@@ -36,8 +36,8 @@
                         <form action="{{ url('alumnos/'.$alumno->id_alumno)}}" method="post">
                         @method("DELETE")
                         @csrf
-                        <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>
-                        </form>
+                        <button type="submit" class="btn btn-danger btn-sm">Eliminar</button>                  
+                      </form>
                       </th>
                     </tr>
                     @endforeach
