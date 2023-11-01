@@ -30,7 +30,7 @@
                       <td>{{$alumno->apellido_paterno}}</td>
                       <td>{{$alumno->apellido_materno}}</td>
                       <td>{{$alumno->edad}}</td>
-                      <td>{{$alumno->curso->nombre_curso}}</td>
+                      <td>{{$alumno->id_cursos}}</td>
                       <th><a href="{{ url('alumnos/'.$alumno->id_alumno.'/edit')}}" class="btn btn-warning btn-sm">Editar</a></th>
                       <th>
                         <form action="{{ url('alumnos/'.$alumno->id_alumno)}}" method="post">
