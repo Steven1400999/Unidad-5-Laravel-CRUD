@@ -12,7 +12,7 @@
 <body> 
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="{{url('/')}}">Meldanex</a>
+          <a class="navbar-brand" href="{{url('/')}}">Skill Office</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -56,7 +56,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <p class="mb-0">&copy; 2023 Meldanex. Todos los derechos reservados.</p>
+            <p class="mb-0">&copy; 2023 Skill Office. Todos los derechos reservados.</p>
           </div>
           <div class="col-md-6 text-md-right">
             <p class="mb-0">Contacto: <a href="mailto:cervantes.romo.oscar@gmail.com">cervantes.romo.oscar@gmail.com</a></p>
