@@ -1,6 +1,6 @@
 @extends('layout/plantilla')
 
-@section('title', 'Meldanex')
+@section('title', 'Skill Office')
 
 @section('contenido')
 <main>
